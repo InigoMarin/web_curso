@@ -199,7 +199,7 @@ a{
 }
 
 .social {
-    width: 300px;
+    width: 280px;
     margin-top: 20px;
     background-color:#CECE3A; 
     padding: 10px;
@@ -229,7 +229,7 @@ a{
 
 .footer {
     margin-top: 20px;
-    height: 30px;
+    height: 40px;
     width: 100%;
     background-color:#CECE3A
 }
