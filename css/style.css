@@ -1,0 +1,236 @@
+/**
+    * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* http://cssreset.com
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+    }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
+
+
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+body{
+    background-color: #ECECEC;
+    color:#5D5D5D;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3 {
+    text-transform: uppercase;
+    color:#0F0F0F;
+    font-weight: bold;
+}
+
+h1{
+    font-size:32px;
+    line-height: 36px;
+}
+
+h2{
+    font-size:24px;
+    line-height: 28px;
+}
+
+h3 {
+    margin: 0 0 18px 0;
+	padding:0 0 4px 0;	
+	font-size: 16px;
+	border-bottom: 2px solid #5D5D5D;
+}
+
+
+.resaltar {
+    color:#CECE3A;
+}
+
+.resaltar_texto{
+    color:#ffa500;
+}
+
+
+.line {
+  display: block;
+}
+
+p {
+  margin: 0 0 14px;
+  line-height: 16px;
+}
+
+.col1 {
+  display: inline-block;
+  max-width: 400px;
+  padding:20px;
+  background-color:#e2e2e2;
+  border-radius:20px;
+}
+
+.collogo {
+  display: inline-block;
+  width: 400px;
+  margin-bottom: 20px;    
+}
+
+a{
+  color:black;
+  text-decoration:none;
+}
+
+.left {
+    float:left;
+}
+
+.right{
+    float: right;
+}
+
+/*
+nav li {
+  display:inline-block;
+  padding:10px;
+  background-color:#CECE3A;
+  border-radius:100%;
+  border:1px solid;
+	box-shadow: 0px 3px 1px 1px rgba(0,0,0,0.75);
+}
+
+nav li:hover{
+  background-color:transparent;
+}
+*/
+
+.nav_main {
+    text-align: right;
+    padding: 20px;
+}
+
+.round-button {
+    display:inline-block;
+    width:80px;
+    height:80px;
+    line-height:80px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #CECE3A;
+    box-shadow: 0 0 3px gray;
+    font-weight:bold;
+    margin-left: 20px;
+}
+
+.button {
+    display:inline-block;
+    width:80px;
+    height:80px;
+    line-height:80px;
+    border: 2px solid #f5f5f5;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #CECE3A;
+    box-shadow: 0 0 3px gray;
+    font-weight:bold;
+    margin-left: 20px;
+}
+
+.round-button:hover {
+    background: #e2e2e2;
+}
+
+.round-button--contratame {
+    display:inline-block;
+    width:120px;
+    height:120px;
+    line-height:120px;
+    border: 4px solid #f5f5f5;
+    border-radius: 50%;
+    text-align:center;
+    text-decoration:none;
+    background: #ffa500;
+    box-shadow: 0 0 3px gray;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.round-button--contratame:hover {
+    background: #e2e2e2;
+}
+
+.social {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.social a {
+    margin-right: 20px;
+    color: #CECE3A;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
