@@ -183,20 +183,30 @@ nav li:hover{
 .button {
     display:inline-block;
     width:80px;
-    height:80px;
-    line-height:80px;
+    height:40px;
+    line-height:40px;
     border: 2px solid #f5f5f5;
     color:#f5f5f5;
     text-align:center;
     text-decoration:none;
-    background: #CECE3A;
+    background-color: #CECE3A;
     box-shadow: 0 0 3px gray;
     font-weight:bold;
     margin-left: 20px;
 }
 
-.round-button:hover {
-    background: #e2e2e2;
+.button--contratame {
+    display:inline-block;
+    width:120px;
+    height:60px;
+    line-height:60px;
+    border: 2px solid #f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background-color: #ffa500;
+    box-shadow: 0 0 3px gray;
+    font-weight:bold;
+    margin-left: 20px;
 }
 
 .round-button--contratame {
@@ -215,7 +225,7 @@ nav li:hover{
     margin-bottom: 10px;
 }
 
-.round-button--contratame:hover {
+.round-button--contratame:hover, .round-button:hover, .button:hover , .button--contratame:hover {
     background: #e2e2e2;
 }
 
