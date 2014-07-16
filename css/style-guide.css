@@ -1,0 +1,36 @@
+
+.sg_titulo {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    border:0;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.sg_seccion {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: gray;
+    padding:4px;
+}
+
+
+.sg-colors {
+  overflow: hidden; }
+  .sg-colors li {
+    overflow: hidden;
+    border: 1px solid #dddddd;
+    padding: 0.3em;
+    margin: 0 0.2em 0.2em 0;
+    float: left;}
+    
+.sg-swatch {
+  display: block;
+  height: 40px;
+  width: 100%; }
+  
+.sg-label {
+  line-height: 1; }

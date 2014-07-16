@@ -14,7 +14,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video,button {
     margin: 0;
     padding: 0;
     border: 0;
@@ -49,7 +49,7 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    }
+ }
 
 
 
@@ -67,6 +67,9 @@ table {
     *zoom: 1;
 }
 
+
+
+
 body{
     background-color: #ECECEC;
     color:#5D5D5D;
@@ -74,36 +77,53 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-h1,h2 {
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6{
     text-transform: uppercase;
     color:#0F0F0F;
     font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #5D5D5D;
 }
 
-h1{
-    font-size:32px;
-    line-height: 36px;
-}
 
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 
 h2 {
-    margin: 0 0 18px 0;
-	padding:0 0 4px 0;	
-	font-size: 16px;
-	border-bottom: 2px solid #5D5D5D;
+    font-size: 20px;
+    margin-bottom: 13px;
 }
 
-
-.resaltar {
-    color:#CECE3A;
+h3 {
+	font-size: 18px;
+    margin-bottom: 18px;
 }
 
-.resaltar_texto{
+h4 {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+h5 {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+h6 {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.strong{
     color:#ffa500;
-}
-
-.line {
-  display: block;
+    text-decoration: bold;
 }
 
 p {
@@ -111,49 +131,10 @@ p {
   line-height: 16px;
 }
 
-.row{
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.col1 {
-  display: inline-block;
-  padding:20px;
-  background-color:#e2e2e2;
-  border-radius:10px;
-  max-width: 400px;
-}
-
-.collogo {
-  display: inline-block;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  max-width: 340px;
-  vertical-align: top;
-}
-
-.col {
-  display: inline-block;
-  padding:20px;
-  background-color:#e2e2e2;
-  border-radius:10px;
-  max-width:  400px;
-  margin-bottom: 20px;
-}
-
 a{
   color:black;
   text-decoration:none;
 }
-
-.left {
-    float:left;
-}
-
-.right{
-    float: right;
-}
-
 
 .nav_main {
     display: table;
@@ -166,10 +147,9 @@ a{
     width: 100%;
 }
 
-.button {
+.nav_main ul li {
     display:table-cell;
     width:80px;
-    height:40px;
     line-height:40px;
     border: 3px solid #f5f5f5;
     color:#f5f5f5;
@@ -180,7 +160,21 @@ a{
     font-weight:bold;
 }
 
-.button--contratame {
+.btn {
+    display:inline-block;
+    width:80px;
+    line-height:40px;
+    border: 3px solid #f5f5f5;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background-color: #CECE3A;
+    box-shadow: 0 0 3px gray;
+    font-weight:bold;
+}
+
+
+.btn--contratame {
     display:block;
     width:120px;
     height:60px;
@@ -194,7 +188,7 @@ a{
     margin-left: 20px;
 }
 
-.button:hover , .button--contratame:hover {
+.btn:hover , .btn--contratame:hover {
     background: #e2e2e2;
 }
 
@@ -220,6 +214,45 @@ a{
     
 }
 
+.row{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col1 {
+  display: inline-block;
+  padding:20px;
+  background-color:#e2e2e2;
+  border-radius:10px;
+  max-width: 400px;
+}
+
+.collogo {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  max-width: 340px;
+  vertical-align: top;
+}
+
+.col {
+  display: inline-block;
+  padding:20px;
+  background-color:#e2e2e2;
+  border-radius:10px;
+  max-width:  400px;
+  margin-bottom: 20px;
+}
+
+
+.left {
+    float:left;
+}
+
+.right{
+    float: right;
+}
 
 .content {
     max-width: 900px;
@@ -233,3 +266,10 @@ a{
     width: 100%;
     background-color:#CECE3A
 }
+
+.logo h1{
+    font-size:32px;
+    line-height: 36px;
+}
+
+
