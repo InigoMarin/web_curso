@@ -140,11 +140,11 @@ p {
   line-height: 1.1rem;
 }
 
-
 a:link{
    text-decoration: none;
-   color:#5D5D5D;
+   color:#f5f5f5;
 }
+
 a:hover{
     color: color:#f5f5f5;
 }
@@ -176,13 +176,9 @@ p a {
             background-color: #CECE3A;
             box-shadow: 0 0 3px gray;
             font-weight:bold;}
-        .nav_main ul li:hover {
+        .nav_main  li:hover {
             background-color:#5D5D5D;
             color:#f5f5f5;}
-            .nav_main a:hover{
-                color:#f5f5f5; }
-
-            
 
 .btn {
     display:inline-block;
@@ -219,7 +215,8 @@ p a {
     font-size: 80%;
     width:17em;
     margin-top: 1em;
-    background-color:#CECE3A; 
+    background-color:#CECE3A;
+    color: #5D5D5D;
     padding: 0.7em;
     border-radius: 1em;
     text-align: center;}
@@ -228,8 +225,6 @@ p a {
         color: #5D5D5D; }
     .social a:hover {
         color:#ffa500;}
-
-
 
 .col1 {
   float: right;
