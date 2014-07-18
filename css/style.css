@@ -78,7 +78,7 @@ table {
 
 body{
     background-color: #ECECEC;
-    color:#5D5D5D;
+    color:black;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     padding-left: 1em;
@@ -140,9 +140,9 @@ p {
   line-height: 1.1rem;
 }
 
-a:link{
-   text-decoration: none;
-   color:#f5f5f5;
+a{
+   text-decoration: underline;
+   color:black;
 }
 
 a:hover{
@@ -155,6 +155,29 @@ p a {
     text-decoration: underline;
 }
 
+table th{
+    border-top: 1px solid #5D5D5D;
+    border-bottom: 1px solid #5D5D5D;
+    padding: .4em 1em;
+    background-color: #CECE3A;
+    font-weight: bold;
+}
+table td{
+    border-top: 1px solid #5D5D5D;
+    border-bottom: 1px solid #5D5D5D;
+    padding: .4em 1em;
+    background-color: #CECE3A;
+}
+
+table tr:nth-child(even) td { 
+    
+    background: #ccc8c8;
+}
+table tr:nth-child(odd) td { 
+    background: #e2dede; 
+
+}
+
 
 .nav_main {
     display: table;
@@ -162,23 +185,24 @@ p a {
     margin-bottom: 2rem;}
     .nav_main  ul{
         display: table-row;
-        width: 100%;
-        color:#f5f5f5;}
-
-        .nav_main ul li {
+        width: 100%;}
+        .nav_main a{
+            text-decoration: none;}
+        .nav_main li{
             display:table-cell;
             width:5rem;
             line-height:2.5rem;
             border: 3px solid #f5f5f5;
-            text-align:center;
-            text-decoration:none;
-            color:#f5f5f5;            
+            text-align:center;        
             background-color: #CECE3A;
             box-shadow: 0 0 3px gray;
             font-weight:bold;}
         .nav_main  li:hover {
             background-color:#5D5D5D;
             color:#f5f5f5;}
+        .nav_main li:hover > a{
+            color:#f5f5f5;}
+     
 
 .btn {
     display:inline-block;
@@ -186,29 +210,23 @@ p a {
     line-height:2.5rem;
     border: 3px solid #f5f5f5;
     text-align:center;
-    text-decoration:none;
+    text-decoration: none;
     background-color: #CECE3A;
     box-shadow: 0 0 3px gray;
     font-weight:bold;
 }
 
 
-.btn--contratame {
-    display:block;
+.btn--call {
     width:7rem;
     height:3.5rem;
     line-height:3.5rem;
-    border: 3px solid #f5f5f5;
-    text-align:center;
-    text-decoration:none;
     background-color: #ffa500;
-    box-shadow: 0 0 3px gray;
-    font-weight:bold;
-    margin-left: 20px;
 }
 
 .btn:hover , .btn--contratame:hover {
-    background: #e2e2e2;
+    background: #5D5D5D;
+    color:#f5f5f5;
 }
 
 .social {
